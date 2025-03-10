@@ -1,21 +1,22 @@
 html {
-    background-color: #4C9F70;
+    background-color: #ffff;
 }
 
 /* body stailaus */
 body {
     font-family: 'Gill Sans', sans-serif;
     text-align: center;
-    margin: 50px;
-    border: 5px solid #496F5D; 
+    margin: 175px;
+    border: 5px solid black; 
     border-radius: 5px;
     background-color: #6279B8; 
 }
 
-
+/* "otsikko" */
 h1 {
     text-align: center;
     color: white;
+    font-size: 64px;
 }
 
 /* Input field styling */
@@ -53,6 +54,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    
 }
 
 /* Task list container */
@@ -98,7 +100,7 @@ button:hover {
 /* Valmiin tehtävän tyylittely */
 #taskList li.completed {
     text-decoration: line-through;
-    background-color: #052F5F;
+    background-color: #808080;
     color: #ffff;
 }
 
@@ -129,4 +131,10 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
 }

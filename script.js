@@ -2,18 +2,23 @@
 const taskInput = document.getElementById('taskInput');
 const taskList = document.getElementById('taskList');
 
-// Lisätään kuuntelija joka vaihtaa input laatikon taustavärin välittömästi virheilmoituksen jälkeen
+// kuuntelija joka vaihtaa input laatikon taustavärin välittömästi virheilmoituksen jälkeen
 taskInput.addEventListener('input', function() {
     taskInput.style.borderColor = '';  
     taskInput.style.backgroundColor = '';  
 });
-
+// tehtävän lisäys 
 function addTask() {
     const taskText = taskInput.value.trim();
+    // Lisätään huomatus tyhjästä syötteestä
+    if (taskText === '') {
+        alert('Syötteesi on tyhjä!');
+        taskInput.style.backgroundColor = 'red';
+        return;
+    }
     // Lisätään huomatus liian lyhyestä syötteestä
     if (taskText.length < 2) {
-        alert('Syöttämäsi tehtävä on liian lyhyt!');
-        // Merkataan punaisella väärä syöte
+        alert('Syötteesi on liian lyhyt!');
         taskInput.style.backgroundColor = 'red';
         return;
     }
