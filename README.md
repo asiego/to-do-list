@@ -2,15 +2,13 @@
 Web-sovellusten kehittäminen projekti 1 DOM-skriptaus
 
 # Demo linkki:
-Sivu tarkasteltavissa <linkkitähän<
+Sivu tarkasteltavissa https://akun-todo.netlify.app/
 
 # Työnjako:
 Allekirjoittanut suoritti kaiken työn itse.
 
 # Muita hyödyllisiä linkkejä:
-1
-2
-3
+
 
 # Sovelluksesta:
 Sovellus on hyvin yksinkertainen To-do lista josta löytyy ominaisuuksina tehtävien lisääminen listaan, niiden merkkaaminen tehdyiksi ja poistaminen.
@@ -26,3 +24,9 @@ Lähteinä käytetty:
 https://dev.to/iamcymentho/implementing-to-do-list-using-javascript-32a7
 
 www.freecodecamp.org sekä www.w3schools.com materiaalit
+
+Erityisesti:
+
+https://www.w3schools.com/howto/howto_js_todolist.asp
+
+
