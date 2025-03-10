@@ -1,0 +1,132 @@
+html {
+    background-color: #4C9F70;
+}
+
+/* body stailaus */
+body {
+    font-family: 'Gill Sans', sans-serif;
+    text-align: center;
+    margin: 50px;
+    border: 5px solid #496F5D; 
+    border-radius: 5px;
+    background-color: #6279B8; 
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Input field styling */
+input {
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* nappistailit */
+button {
+    padding: 10px 15px;
+    border: solid;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    width: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* container keskittäminen */
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Task list container */
+#taskList {
+    padding: 10px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: #6279B8;
+    list-style-type: none; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* tehtävälistan sisällöt */
+#taskList li {
+    border: 5px solid #FE4A49;
+    padding: 10px;
+    margin: 5px 0;
+    margin-left: 12px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 300px;
+    word-break: break-word;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Listan tekstien tyylittely */
+#taskList li span {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Valmiin tehtävän tyylittely */
+#taskList li.completed {
+    text-decoration: line-through;
+    background-color: #052F5F;
+    color: #ffff;
+}
+
+/* Poista nappi */
+#taskList li button {
+    border: none;
+    background-color: #FE4A49;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#taskList li button:hover {
+    background-color: darkred;
+}
+
+/* ul keskittäminen */
+#taskList ul {
+    align-content: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
