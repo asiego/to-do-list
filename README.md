@@ -14,7 +14,7 @@ Allekirjoittanut suoritti kaiken työn itse.
 Sovellus on hyvin yksinkertainen To-do lista josta löytyy ominaisuuksina tehtävien lisääminen listaan, niiden merkkaaminen tehdyiksi ja poistaminen.
 
 # Teknologiat:
-Sovelluksen tekoon on käytetty Visual Studio Codea jolla on kirjoitettu HTML, CSS ja JavaScriptiä. Ohjelmoinnin tukena on käytetty ChatGPT avustamaan ideoiden muuttamista koodiksi sekä VSC sisäänrakennettua Copilottia virheiden etsimiseen ja korjaamiseen.
+Sovelluksen tekoon on käytetty Visual Studio Codea jolla on kirjoitettu HTML, CSS ja JavaScriptiä. Ohjelmoinnin tukena on käytetty ChatGPT sekä VSC sisäänrakennettua Copilottia virheiden etsimiseen ja korjaamiseen sekä avustamaan ideoiden muuttamista koodiksi.
 
 # Status:
 Sovellus on käyttövalmis. Uusia päivityksiä ja ominaisuuksia saatetaan lisätä tulevaisuudessa.
