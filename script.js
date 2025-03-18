@@ -41,7 +41,7 @@ function addTask() {
         li.appendChild(deleteBtn);
         taskList.appendChild(li);
         if (taskList.style.display === 'none') { // Lisätään tehtävälista näkyviin ensimmäisen hyväksytyn syötteen jälkeen
-            taskList.style.display = 'block'
+            taskList.style.display = 'block';
         }
         saveTasksToLocalStorage();
         taskInput.value = '';
