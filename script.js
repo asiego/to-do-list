@@ -93,5 +93,9 @@ function loadTasksFromLocalStorage() {
 
 // Ladataan tehtävät kun sivu aukaistaan
 document.addEventListener('DOMContentLoaded', function() {
-    loadTasksFromLocalStorage();
+    loadTasksFromLocalStorage(); 
+    const taskList = document.getElementById('taskList');
+    if (taskList.children.length > 0) {
+        taskList.style.display = 'block'; 
+    }
 });
